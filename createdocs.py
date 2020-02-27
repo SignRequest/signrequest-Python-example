@@ -3,9 +3,9 @@ import json
 
 response = requests.post(
     "https://yourteam.signrequest.com/api/v1/documents/",
-    headers={"Authorization": "Token YOUR_TEAM_TOKEN_HERE"},
+    headers={"Authorization": "Token YOUR_TOKEN_HERE"},
     data={
-        "file_from_url": 'your_document_url_here',
+        "file_from_url": 'your_url_here',
         "auto_delete_days": 1
         # Add other parameters here
     }

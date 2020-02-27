@@ -3,7 +3,7 @@ import json
 
 response = requests.get(
     "https://yourteam.signrequest.com/api/v1/documents/",
-    headers={"Authorization": "Token YOUR_TEAM_TOKEN_HERE"}
+    headers={"Authorization": "Token YOUR_TOKEN_HERE"}
 )
 
 json_response = json.dumps(response.json(), indent=4)
