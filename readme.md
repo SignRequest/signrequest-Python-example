@@ -1,6 +1,6 @@
-# SignRequest API - Python Client - Lite
+# SignRequest API - Python Example
 
-Client developed to make GET and POST requests to SignRequest's API.
+Example of how to send GET and POST requests to SignRequest's API.
 
 ## Getting Started:
 
