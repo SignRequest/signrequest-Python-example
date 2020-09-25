@@ -1,5 +1,6 @@
 import requests
 import json
+import base64
 
 response = requests.post(
     "https://yourteam.signrequest.com/api/v1/documents/",
